@@ -4,7 +4,8 @@
   "description": "Practicing using express.js",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "mochatest": "nyc --reporter=lcov --reporter=text-lcov mocha"
   },
   "author": "Lindsay Elia",
   "license": "ISC",
